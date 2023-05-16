@@ -198,7 +198,7 @@ int main() {
      - type aliases, e.g. `size_t`, specify sort of object
          - _t reminds us the identifier is a type
  - functions e.g . `main`
-     - `main` must always be present, it is the starting point of the program's execution
+     - `main` must be present, it is the starting point of execution
  - constants e.g. `EXIT_SUCCESS`
  - operators, like R except:
      - `=` for initialization and assignment
@@ -280,7 +280,7 @@ man 3 printf #other related functions e.g. fprintf
         - indices from zero: think of as distance from start of array
     - can have many declarations, but need exactly one definition
     
-## Statements 
+## Statements (1)
 
 Instructions telling compiler what to do with declared identifiers
 
@@ -293,6 +293,9 @@ Instructions telling compiler what to do with declared identifiers
     - *don't* define loop variable outside `()` or reuse for several loops
  - Function calls
     - C uses "call by value": values of identifiers cannot be changed by fn
+    
+## Statements  (2)
+
  - Function return
     - last statement in function
     - must return value of declared type

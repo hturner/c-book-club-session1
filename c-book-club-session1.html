@@ -621,7 +621,7 @@ bad.c:22:3: error: void function 'main' should not return a value [-Wreturn-type
 </ul></li>
 <li>functions e.g . <code>main</code>
 <ul>
-<li><code>main</code> must always be present, it is the starting point of the program’s execution</li>
+<li><code>main</code> must be present, it is the starting point of execution</li>
 </ul></li>
 <li>constants e.g.&nbsp;<code>EXIT_SUCCESS</code></li>
 <li>operators, like R except:
@@ -713,8 +713,8 @@ bad.c:22:3: error: void function 'main' should not return a value [-Wreturn-type
 </ul></li>
 </ul>
 </section>
-<section id="statements" class="slide level2">
-<h2>Statements</h2>
+<section id="statements-1" class="slide level2">
+<h2>Statements (1)</h2>
 <p>Instructions telling compiler what to do with declared identifiers</p>
 <ul>
 <li>Iteration, e.g.&nbsp;<code>for</code>
@@ -732,6 +732,11 @@ bad.c:22:3: error: void function 'main' should not return a value [-Wreturn-type
 <ul>
 <li>C uses “call by value”: values of identifiers cannot be changed by fn</li>
 </ul></li>
+</ul>
+</section>
+<section id="statements-2" class="slide level2">
+<h2>Statements (2)</h2>
+<ul>
 <li>Function return
 <ul>
 <li>last statement in function</li>
